@@ -182,7 +182,7 @@ def library_commands(update, context):
             db_ses = db_session.create_session()
             user = db_ses.query(User).filter(User.id == update.effective_user.id).first()
             if user.books:
-                message = '\n'.join(str(t.id) + ' ' + t.title for t in user.books)
+                message = '\n'.join(str(n + 1) + ' ' + t.title for n, t in enumerate(user.books))
                 update.message.reply_text(message,
                                           reply_markup=ReplyKeyboardMarkup(
                                               [[i for i in range(1, len(list(user.books)) // 2 + 1)],
