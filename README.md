@@ -1,7 +1,7 @@
 ![photo_2022-07-20_16-01-49](https://user-images.githubusercontent.com/63420603/179992363-a84c562e-d552-496e-82a6-aad0bf30955c.jpg)
 
 # Usage
-This bot was developed for self-usage. It has 6 useful and entertainment functions: Pomodoro method, pseudolibrary, return skill, quote, parable or fun fact about number.
+This Telegram bot([@educatoo_bot](https://t.me/educatoo_bot)) was developed for self-usage. It has 6 useful and entertainment functions: Pomodoro method, pseudolibrary, return skill, quote, parable or fun fact about number.
 
 # Pomodoro method
 Typical Pomodoro method, which provides better time management and focus on tasks. 25 minutes of work, 5 minutes - short break, 30 minutes - long break.
